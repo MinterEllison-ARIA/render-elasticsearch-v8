@@ -1,5 +1,5 @@
 # The official Elasticsearch Docker image
-FROM docker.elastic.co/elasticsearch/elasticsearch:sha256-ffdaa5c751e98670c85154b3dd9601abd64c1b4b2498433e9c9fefa197b5a754
+FROM docker.elastic.co/elasticsearch/elasticsearch:sha256-fece07406ca82f04df4f321b9a17500c48c0123d7e09895cc3f8ecb30c18946f
 
 # Copy our config file over
 COPY --chown=1000:0 config/elasticsearch.yml /usr/share/elasticsearch/config/elasticsearch.yml
